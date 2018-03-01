@@ -6,6 +6,24 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+.firstcharacter {
+  color: #FFC300;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+#inverted-comma{
+	font-family: 'Plaster', serif;
+	font-size: 28px;
+}
+#about-headings{
+	font-family: 'Gloria Hallelujah', serif;
+	font-size: 28px;
+}
 h1 {
 	font-weight: 700;
 }
@@ -36,12 +54,22 @@ p.intro {
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
+#quote-statement{
+	font-family: 'Krona One', serif;
+	font-size: 28px;
+}
+#about-belief{
+	border-width: thin;
+}
 a {
 	color: #333;
 }
 a:hover, a:focus {
 	text-decoration: none;
 	color: #FFC300;
+}
+.about .container .row .col-md-8 .row .col-md-12{
+	border: thin;
 }
 ul, ol {
 	list-style: none;
@@ -209,7 +237,7 @@ hr {
 #about .container {
 	margin-top: 50px;
 }
-.about-text #quote{
+#quote{
 	 font-family: 'Freckle Face', serif;
 	 font-size: 48px;
 }
