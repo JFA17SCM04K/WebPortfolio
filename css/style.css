@@ -54,6 +54,24 @@ ul, ol {
 	clear: both;
 	height: 0;
 }
+i{
+	padding: 5px;
+}
+.container .row .col-md-6 .carousel .carousel-inner .item img{
+	height: 300px;
+}
+.container .row .col-md-6{
+	padding: 0px;
+}
+.container .row .col-md-6 .container{
+	width: 100%;
+	background-color: #FFC300;
+	height: 300px;
+}
+.container .row .col-md-6 .container #project-git{
+	font-size: 50px;
+	color: white;
+}
 .clearfix {
 	display: inline-block;
 }
